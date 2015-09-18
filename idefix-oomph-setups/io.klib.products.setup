@@ -59,7 +59,8 @@
       xsi:type="setup.p2:P2Task"
       label="oomph">
     <requirement
-        name="org.eclipse.oomph.setup.feature.group"/>
+        name="org.eclipse.oomph.setup.feature.group"
+            versionRange="[1.2.0,1.3.0)"/>
     <repository
         url="${oomph.update.url}"/>
   </setupTask>
